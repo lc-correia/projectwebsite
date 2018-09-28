@@ -42,11 +42,15 @@ Table of Content:
 /* JORGE ALVES*/
 
 .divSpaceFirstTwoStudents {
-
+    text-align: center;
 }
 
 .divSpaceSecondTwoStudents {
   margin-top: 10%;
+  text-align: center;
+}
+
+.AssignmentStudNames{
 }
 
 .Assignment {
