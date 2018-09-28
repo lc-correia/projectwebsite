@@ -61,7 +61,6 @@
                         <li class="nav-item"><a class="nav-link"  href="assignments.html">Assignments</a></li>
                         <li class="nav-item"><a class="nav-link" href="project.html">Smarter Hub</a></li>
                     </ul>
-
                 </div>
             </nav>
         </header>
@@ -108,8 +107,7 @@
                                 data-responsive_offset="on"
                                 data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                                 data-textAlign="['center','center','center','center','center','center']">
-                                <a class="bg_btn" href="#">About Us</a>
-                                <a class="tp_btn" href="#">Get a quote</a>
+                                <a class="bg_btn" id="about-us-btn" href="#">About Us</a>
                             </div>
                         </div>
                     </li>
@@ -121,7 +119,6 @@
         <!--================Creative Feature Area =================-->
         <section class="creative_feature_area">
           <div class="container">
-
                 <div class="digital_feature p_100">
                     <div class="row">
                         <div class="col-lg-6">
@@ -136,7 +133,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="d_feature_img">
-                                <img src="img/feature-right.jpg" alt="">
+                                <img width="300px" height="351px" src="img/lightbulb2.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -151,16 +148,26 @@
                 <div class="project_inner">
                     <div class="center_title">
                         <h2>Smarter Hub </h2>
-                        <p></p>
+                        <p> Everyday, more and more devices are connected to the internet, the goal is
+                        to make use of this increasing tecnology and use it to control your house
+                        without being physically present.</p>
+
+                        <p> Smarter Hub aims for excelency and efficiency: with a simple and intiutive interface,
+                        users will be able to better manage their time and effort.</p>
+
+                        <p> With Smarter Hub, a click is enough to plan
+                        your house chores and execute multiple of those at the same time.
+                        It will also help reducing how many of the house devices are uselessly turned
+                        on, being one click away from solving that problem.</p>
                     </div>
-                    <a class="tp_btn" href="#">READ MORE</a>
+                    <a class="tp_btn" href="project.html">READ MORE</a>
                 </div>
             </div>
         </section>
         <!--================End Project Area =================-->
 
         <!--================Latest News Area =================-->
-        <section class="latest_news_area p_100">
+        <section class="latest_news_area p_100" id="about_us">
             <div class="container">
                 <div class="b_center_title">
                     <h2>Who are we?</h2>
@@ -170,7 +177,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <div class="l_news_item">
-                                <div class="l_news_img"><a href="#"><img class="img-fluid" src="img/group/nuno.jpg" alt=""></a></div>
+                                <div class="l_news_img"><img class="img-fluid" src="img/group/nuno.png" alt=""></a></div>
                                 <div class="l_news_content">
                                     <h4>Nuno Morais</h4>
                                     <p>49544 MIEI</p>
@@ -179,7 +186,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="l_news_item">
-                                <div class="l_news_img"><a href="#"><img class="img-fluid" src="img/blog/l-news/l-news-2.jpg" alt=""></a></div>
+                                <div class="l_news_img"><img class="img-fluid" src="img/blog/l-news/l-news-2.jpg" alt=""></a></div>
                                 <div class="l_news_content">
                                     <h4>Marta Carlos</h4>
                                     <p>47592 MIEI</p>
@@ -188,7 +195,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="l_news_item">
-                                <div class="l_news_img"><a href="#"><img class="img-fluid" src="img/blog/l-news/l-news-3.jpg" alt=""></a></div>
+                                <div class="l_news_img"><img class="img-fluid" src="img/blog/l-news/l-news-3.jpg" alt=""></a></div>
                                 <div class="l_news_content">
                                     <h4>Leonardo Correia</h4></a>
                                     <p>47651 MIEI</p>
@@ -197,7 +204,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="l_news_item">
-                                <div class="l_news_img"><a href="#"><img class="img-fluid" src="img/blog/l-news/l-news-3.jpg" alt=""></a></div>
+                                <div class="l_news_img"><img class="img-fluid" src="img/blog/l-news/l-news-3.jpg" alt=""></a></div>
                                 <div class="l_news_content">
                                     <h4>Jorge Alves</h4>
                                     <p>47554 MIEI</p>
@@ -334,6 +341,9 @@
         <script src="vendors/tweet/tweetie.min.js"></script>
         <script src="vendors/tweet/script.js"></script>
 
+        <script src="js/jquery.smooth-scroll.js"></script>
         <script src="js/theme.js"></script>
+        <script src="js/index.js"></script>
+
     </body>
 </html>

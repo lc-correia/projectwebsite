@@ -11,6 +11,7 @@
   "license": "ISC",
   "homepage": "https://lc-correia.github.io/projectwebsite",
   "dependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "jquery-smooth-scroll": "^2.2.0"
   }
 }
