@@ -26,10 +26,10 @@ Table of Content:
 06/ feature
 07/ button
 08/ service
-09/ testimonials 
-10/ blog 
-11/ contact 
-12/ footer 
+09/ testimonials
+10/ blog
+11/ contact
+12/ footer
 =====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
@@ -38,6 +38,47 @@ Table of Content:
 .col-md-offset-right-1, .col-lg-offset-right-1 {
   margin-right: 8.33333333%;
 }
+
+/* JORGE ALVES*/
+
+.divSpaceFirstTwoStudents {
+
+}
+
+.divSpaceSecondTwoStudents {
+  margin-top: 10%;
+}
+
+.Assignment {
+  /*margin-left: 25%;*/
+  width: 50%;
+  max-height: 10%;
+  float: left;
+  overflow: hidden;
+}
+
+.RightUpAss {
+  margin-left: 50%;
+    width: 50%;
+    max-height: 10%;
+    overflow: hidden;
+}
+
+.LeftBottomAss {
+width: 50%;
+max-height: 10%;
+float: left;
+overflow: hidden;
+}
+
+.RigthBottomAss {
+  margin-left: 50%;
+    width: 50%;
+    max-height: 10%;
+    overflow: hidden;
+}
+/* END - JORGE ALVES*/
+
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
