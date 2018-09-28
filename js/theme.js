@@ -1,16 +1,16 @@
 ;(function($) {
     "use strict";
-    
-    var nav_offset_top = $('header').height(); 
+
+    var nav_offset_top = $('header').height();
     /*-------------------------------------------------------------------------------
-	  Navbar 
+	  Navbar
 	-------------------------------------------------------------------------------*/
 
-	//* Navbar Fixed  
+	//* Navbar Fixed
     function navbarFixed(){
-        if ( $('.main_menu_area, .search_area').length ){ 
+        if ( $('.main_menu_area, .search_area').length ){
             $(window).scroll(function() {
-                var scroll = $(window).scrollTop();   
+                var scroll = $(window).scrollTop();
                 if (scroll >= nav_offset_top ) {
                     $(".main_menu_area, .search_area").addClass("navbar_fixed");
                 } else {
@@ -20,8 +20,8 @@
         };
     };
     navbarFixed();
-    
-    
+
+
     /*----------------------------------------------------*/
     /*  Main Slider js
     /*----------------------------------------------------*/
@@ -73,8 +73,8 @@
         }
     }
     main_slider();
-    
-    
+
+
     /*----------------------------------------------------*/
     /*  Skill Slider
     /*----------------------------------------------------*/
@@ -87,7 +87,7 @@
 	        var progressValue = Self.data('value');
 
 	        Self.find('.progress-bar').animate({
-	          width:progressValue+'%'           
+	          width:progressValue+'%'
 	        }, 1000);
 
 	        Self.find('.number').countTo({
@@ -100,19 +100,19 @@
 	  }
 	}
     progressBarConfig ();
-    
+
     $('.counter').counterUp({
         delay: 10,
         time: 1000
     });
-    
+
     if($(window).width()>992){
         $('.service_area').parallax("50%", 0.4);
         $('.project_area').parallax("50%", 0.4);
     }
-    
-    
-    
+
+
+
     /*----------------------------------------------------*/
     /*  Explor Room Slider
     /*----------------------------------------------------*/
@@ -132,7 +132,7 @@
         }
     }
     testimoninals_carousel();
-    
+
     /*----------------------------------------------------*/
     /* Offcanvas Menu js
     /*----------------------------------------------------*/
@@ -145,11 +145,11 @@
         }
         return false
     });
- 
+
     /*----------------------------------------------------*/
     /*  Google map js
     /*----------------------------------------------------*/
-    
+
     if ( $('#mapBox').length ){
         var $lat = $('#mapBox').data('lat');
         var $lon = $('#mapBox').data('lon');
@@ -348,14 +348,14 @@
         });
 
         map.addMarker({
-            lat: $markerLat, 
+            lat: $markerLat,
             lng: $markerLon,
-            icon: $marker,    
+            icon: $marker,
             infoWindow: {
               content: $info
             }
         })
     }
-    
-    
+
+
 })(jQuery)
