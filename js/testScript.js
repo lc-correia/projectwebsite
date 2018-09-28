@@ -1,6 +1,11 @@
-var test = document.getElementById("testDiv");
-document.getElementById("testScript").addEventListener("click", function(){
-  console.log(test);
-    document.getElementById("testDiv").style.display = "block";
-    document.getElementById("mainImage").style.display = "none";
+document.getElementById("assign1Script").addEventListener("click", function(){
+    document.getElementById("assign1").style.display = "block";
+        document.getElementById("assign2").style.display = "none";
+    //document.getElementById("mainImage").style.display = "none";
+});
+
+document.getElementById("assign2Script").addEventListener("click", function(){
+    document.getElementById("assign2").style.display = "block";
+        document.getElementById("assign1").style.display = "none";
+    //document.getElementById("mainImage").style.display = "none";
 });
