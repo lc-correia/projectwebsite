@@ -15,12 +15,15 @@ window.addEventListener("load", function(){
 
   var day = date.getDate();
   var month = date.getMonth();
+  var year = date.getFullYear();
 
-  if(day >= 1 && (month + 1) >= 10) {
+  if(day >= 1 && (month + 1) >= 10 && year >= 2018) {
+    document.getElementById("assign0RightTab").style.display = "none";
     document.getElementById('assign1RightTab').style.display = "block";
   }
 
-  if(day >= 8 && (month + 1) >= 10) {
+  if(day >= 8 && (month + 1) >= 10 && year >= 2018) {
     document.getElementById('assign2RightTab').style.display = "block";
   }
+
 });
