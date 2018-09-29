@@ -1,12 +1,14 @@
 document.getElementById("assign1Script").addEventListener("click", function(){
     document.getElementById("assign1").style.display = "block";
     document.getElementById("assign2").style.display = "none";
+    document.getElementById("assign0").style.display = "none";
     //document.getElementById("mainImage").style.display = "none";
 });
 
 document.getElementById("assign2Script").addEventListener("click", function(){
     document.getElementById("assign2").style.display = "block";
     document.getElementById("assign1").style.display = "none";
+    document.getElementById("assign0").style.display = "none";
     //document.getElementById("mainImage").style.display = "none";
 });
 
@@ -19,7 +21,7 @@ window.addEventListener("load", function(){
   console.log("Day: " + day);
   console.log("Month: " + month);
 
-  if(day >= 1 && (month + 1) >= 10) {
+  if(day >= 1 && (month + 1) >= 9) {
     document.getElementById('assign1RightTab').style.display = "block";
   }
 
