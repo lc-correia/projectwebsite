@@ -274,13 +274,13 @@ i:before {
   padding: 0px 75px;
   border-bottom: 1px solid #626571;
   background-color: black !important;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .main_menu_area .navbar {
   padding: 0px;
   background-color: black !important;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .main_menu_area .navbar .navbar-collapse {
