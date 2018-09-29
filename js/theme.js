@@ -8,7 +8,7 @@
 
 	//* Navbar Fixed
     function navbarFixed(){
-        if ( $('.main_menu_area, .search_area').length ){
+        if ( $('.main_menu_area, .search_area' ).length ){
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();
                 if (scroll >= nav_offset_top ) {
