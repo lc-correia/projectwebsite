@@ -40,6 +40,33 @@ Table of Content:
 }
 
 /* JORGE ALVES*/
+#contacts {
+  width: 100%;
+}
+
+#contact1 {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+}
+
+#contact2 {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+}
+
+#contact3 {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+}
+
+#contact4 {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+}
 
 .divSpaceFirstTwoStudents {
     text-align: center;
