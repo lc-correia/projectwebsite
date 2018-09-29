@@ -1845,7 +1845,7 @@ i:before {
 .footer_widgets_area {
   background: #131627;
   overflow: hidden;
-  padding: 80px 0px;
+  padding: 20px 0px;
 }
 
 .f_w_title {
@@ -2020,7 +2020,7 @@ i:before {
 }
 
 .contact_widget {
-  margin-left: 50px;
+  margin-left: 0px;
 }
 
 .contact_widget a, .contact_widget p, .contact_widget h6 {
