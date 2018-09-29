@@ -1,7 +1,8 @@
 /* Footer Area css
 ============================================================================================ */
 .footer_area{
-    
+  position: absolute !important;
+  bottom: 0;
 }
 .footer_widgets_area{
     background: #131627;
@@ -19,6 +20,7 @@
         font-size: 16px;
     }
 }
+
 .subscribe_widget{
     p{
         font-size: 14px;
@@ -48,7 +50,7 @@
         }
         .input-group-btn{
             .btn-secondary{
-                
+
             }
         }
     }
@@ -142,7 +144,7 @@
                     transform: translateY(-50%);
                     opacity: 0;
                     @include transition;
-                }    
+                }
             }
             &:hover{
                 a{
@@ -171,7 +173,7 @@
         padding: 23px 0px;
     }
     h6{
-        
+
     }
 }
 .copy_right_area{
