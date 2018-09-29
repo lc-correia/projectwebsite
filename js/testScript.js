@@ -18,9 +18,6 @@ window.addEventListener("load", function(){
   var day = date.getDate();
   var month = date.getMonth();
 
-  console.log("Day: " + day);
-  console.log("Month: " + month);
-
   if(day >= 1 && (month + 1) >= 9) {
     document.getElementById('assign1RightTab').style.display = "block";
   }
