@@ -40,6 +40,7 @@ Table of Content:
 }
 
 /* JORGE ALVES*/
+/* Assignments*/
 #contacts {
   width: 100%;
 }
@@ -109,7 +110,34 @@ overflow: hidden;
     max-height: 10%;
     overflow: hidden;
 }
+
+/* END Assignments*/
+
+/* Project*/
+.stages h5 {
+  text-align: center;
+}
+
+.stages h6 {
+  text-align: center;
+}
+
+.stages p {
+  text-align: center;
+}
+
+/* END Project*/
 /* END - JORGE ALVES*/
+
+/* Marta */
+
+.stages {
+  border: 1px solid #ebebeb;
+  padding: 30px 35px;
+  margin-top: 5%;
+}
+
+/* Marta */
 
 
 /*---------------------------------------------------- */
@@ -274,13 +302,13 @@ i:before {
   padding: 0px 75px;
   border-bottom: 1px solid #626571;
   background-color: black !important;
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 .main_menu_area .navbar {
   padding: 0px;
   background-color: black !important;
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 .main_menu_area .navbar .navbar-collapse {
