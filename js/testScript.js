@@ -18,7 +18,6 @@ window.addEventListener("load", function(){
   var year = date.getFullYear();
 
   /*if(day >= 1 && (month + 1) >= 10 && year >= 2018) {
-    document.getElementById("assign0RightTab").style.display = "none";
     document.getElementById('assign1RightTab').style.display = "block";
   }*/
 
