@@ -21,8 +21,8 @@ window.addEventListener("load", function(){
     document.getElementById('assign1RightTab').style.display = "block";
   }*/
 
-  if(day >= 8 && (month + 1) >= 10 && year >= 2018) {
+  /*if(day >= 8 && (month + 1) >= 10 && year >= 2018) {
     document.getElementById('assign2RightTab').style.display = "block";
-  }
+  }*/
 
 });
